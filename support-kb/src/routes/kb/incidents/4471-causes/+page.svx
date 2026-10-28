@@ -4,7 +4,7 @@ title: 'What #4471 shows'
 owner: Marcin Kras
 status: filed
 reviewed: '2026-10-28'
-signature: Marcin Kras
+signature: 'v1.eyJzdWIiOiI0Mzk4IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyMDcyODUsImV4cCI6MTc5MzI5MzY4NX0.ZZRoU8oaorI3Uyc4t1CEPZ6QeJKoZkbz_jM_gsSxbIQ'
 ---
 
 <script>
