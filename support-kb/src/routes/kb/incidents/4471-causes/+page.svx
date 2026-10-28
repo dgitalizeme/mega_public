@@ -1,0 +1,28 @@
+---
+layout: runbook
+title: 'What #4471 shows'
+owner: Marcin Kras
+status: filed
+reviewed: '2026-10-28'
+signature: Marcin Kras
+---
+
+<script>
+  import CauseTable from '#lib/kb/CauseTable.svelte';
+  import Callout from '#lib/kb/Callout.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+#4471 merged every date report into one ticket and marked that ticket known. The page for it calls this one parser bug. Running the cause logic over the same reports does not.
+
+## Causes
+
+<CauseTable ticket={4471} />
+
+<Callout kind="warn">
+The row marked as this ticket is the cause most of its reports share. Every other row was merged into #4471 and has no ticket of its own. An intake tag is a guess from the browser. The cause comes from the tenant and the channel.
+</Callout>
+
+Each cause is its own ticket in the public repo. The report count on a ticket is the count this table shows for that cause, after one id is one report. Reports the desk read as a one-day move stay in the cause they are filed under. This table footnotes that reading.
+
+<RenderStamp {signature} />
